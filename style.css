@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+    --background1: #F7F9FD;
+
+    --background2: #D2DCF1;
+    --background3:  #A4BAE3;
+    --blue1: #7797D4;
+    --blue2: #4975C6;
+    --blue3: #1C52B8;
+    --blue4: #164293;
+    --blue5: #11316E;
+    --blue6: #0B214A;
+    --text: #051023;
+    --pinkishOrange: #EA5479;
+    --black: #000000;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.landing{
+    background-color: var(--background1);
+    min-height: 100vh;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+
+}
+.header{
+    margin-bottom: 60px;
+}
+.nav-bar{
+    height: 55px;
+    max-width: 1200px;
+    margin: 0px 100px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo img{
+    /* height: 50%; */
+    width: 200px;
+}
+.links ul{
+    list-style: none;
+    display: flex;
+    /* justify-content:space-around; */
+    align-items: center;
+    margin-right: 0;
+}
+.links ul li{
+    /* margin: 0px 45px; */
+    margin-right: 0;
+    margin-left: 90px;
+    font-weight: 600;
+}
+.links ul li a{
+    text-decoration: none;
+    color:  var(--black);
+}
+
+.banner{
+    display: flex;
+    justify-content:space-between;
+    flex-grow: 1;
+    padding: 50px 0;
+}
+.banner-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-title h2{
+    color: #0B214A;
+    font-weight: 700;
+    font-size: 3.8rem;
+}
+.banner-details{
+    margin: 20px 0px;
+}
+.banner-details p{
+    color:#4975C6;
+    font-weight: 400;
+}
+.banner-img img{
+    max-width: 100%;
+    /* padding: 50px; */
+    /* box-shadow: 10px 10px 5px ; */
+}
+.dark-btn{
+    background-color:#1C52B8;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.banner-btn button{
+    font-size: 1.13rem;
+}
+.dark-btn:focus{
+    outline: none;
+}
+.news-row{
+    display: flex;
+    justify-content:space-between;
+    padding: 80px 0;
+}
+.news{
+    display: flex;
+    align-items: center;
+    background-color: #164293;
+    margin: 25px 0;
+    border-radius: 16px;
+    padding: 20px 24px ;
+}
+.news-title h2{
+    font-weight: 600;
+}
+.news-info{
+    padding-left: 14px;
+}
+.news-headline h2{
+    color: white;
+    font-size: 1.55rem;
+}
+.news-details p{
+    color: #A4BAE3;
+    font-size: 16px;
+}
+.news-time-day{
+    display: flex;
+    justify-content:space-between;
+}
+.news-time p{
+    color: white;
+}
+.news-day{
+    color: #F6D117;
+}
+.disc-btn{
+    display: flex;
+    justify-content: center;
+}
+.discord-btn{
+    background-color: #5865F2;
+    color: white;
+    padding: 16px;
+    border: none;
+    border-radius: 16px;
+}
+.oppurtunity{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border: solid 1px #1C52B8;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 16px;
+}
+.opp-name h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+.opp-infos{
+    display: flex;
+    justify-content:space-between;
+}
+.opp-details{
+    /* width: 55%; */
+}
+.opp-buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.oppBtn{
+    background-color: transparent;
+    border: #1C52B8 solid 1px;
+    border-radius: 6px;
+    padding: 5px;
+    margin-left: 2rem;
+}
+.oppBtn.dark{
+    background-color: #1C52B8;
+}
+.oppBtn.dark button{
+    color: white;
+}
+.oppBtn button{
+    border: none;
+    color: #1C52B8;
+    background-color: transparent;
+    outline: none;
+}
+.more-btn{
+    display: flex;
+    justify-content: center;
+}
+.view-more{
+    padding: 10px 16px;
+    font-weight: 600;
+    color:#1C52B8;
+    border: #1C52B8 solid 1px;
+    border-radius: 16px;
+}
+
+/* 
+@media screen (min-width:960px){
+    
+} */
