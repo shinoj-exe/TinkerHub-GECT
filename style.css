@@ -287,8 +287,8 @@
     justify-content: center;
     align-items: center;
 }
-.event-img img{
-}
+/* .event-img img{
+} */
 .event-datePlace{
     display: flex;
     justify-content: space-between;
@@ -433,6 +433,53 @@
 .member-role p{
     color: #1B5E66;
 }
+.newsletter-section{
+    background-color: var(--background1);
+}
+.newsletter{
+    background-color:#164293;
+    max-width: 900px;
+    height: 270px;
+    margin: 0px auto;
+    padding: 20px 0;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 16px;
+}
+.newsletter-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+}
+.newsletter-mail{
+    display: flex;
+}
+/* .newsletter-mail .mail{
+    flex: 3;
+} */
+.mail{
+    width: 75%;
+}
+.mail input{
+    background-color: #1C52B8;
+    border: none;
+    border-radius: 16px;
+    padding: 16px;
+    width: 100%;
+}
+.subscribe button{
+    border: none;
+    background-color: #EA5479;
+    color: white;
+    border-radius: 16px;
+    padding: 16px;
+    margin-left: 10px;
+}
+
 /* 
 @media screen (min-width:960px){
     
